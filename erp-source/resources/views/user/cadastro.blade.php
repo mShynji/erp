@@ -10,12 +10,12 @@
 
 			<div class="form-group mb-2 w-75">
 				<label class="text-secondary" for="email">E-mail:</label>
-				<input type="text" class="form-control" name="email" id="email" placeholder="nome@minhaempresa.com.br"/>
+				<input type="email" class="form-control" name="email" id="email" placeholder="nome@minhaempresa.com.br"/>
 			</div>
 
 			<div class="form-group mb-2 w-75">
 				<label class="text-secondary" for="nome">Nome:</label>
-				<input type="text" class="form-control" name="nome" id="nome" placeholder="nome da pessoa responsável pelo processo administrativo"/>
+				<input type="text" class="form-control" name="nome" id="nome" placeholder="nome do responsável pela administração"/>
 			</div>
 
 			<div class="form-group mb-2 w-75">

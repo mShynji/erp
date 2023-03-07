@@ -10,6 +10,10 @@ class UserController extends Controller
         return view('user/cadastro');
     }
 
+    public function login() {
+        return view('user/login');
+    }
+
     public function store() {
         return redirect('/');
     }

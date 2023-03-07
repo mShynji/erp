@@ -14,7 +14,10 @@
             <nav class="bg-light">
                 <div class="d-flex justify-content-between align-items-center p-3 ps-5 pe-5 shadow-sm">
                     <h3 class="text-primary"><a class="text-decoration-none" href="/">ERP Teste</a></h3>
-                    <a class="btn btn-primary" href="/user/new">Cadastro</a>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-outline-primary me-2" href="/user/login">Login</a>
+                        <a class="btn btn-primary ms-2" href="/user/new">Cadastro</a>
+                    </div>
                 </div>
             </nav>
         </header>
