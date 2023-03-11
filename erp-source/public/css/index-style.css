@@ -1,0 +1,105 @@
+.banner {
+	position: relative;
+	width: 100%;
+	background-color: #EDF2F7!important;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 170px;
+	letter-spacing: 2px;
+}
+
+.banner .conteudo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .conteudo .titulo {
+	font-size: 40px;
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+	font-weight: 700 !important;
+}
+
+.banner .conteudo .btn-cadastro {
+	position: relative;
+	margin-top: 30px;
+	border-radius: 60px !important;
+	font-weight: 400 !important;
+	padding: 20px;
+	transition: 0.05s;
+}
+
+.banner .conteudo .btn-cadastro:hover {
+	box-shadow: 0px 5px #06F3 !important;
+}
+
+.banner .conteudo .btn-ofertas {
+	position: relative;
+	margin-top: 30px;
+	font-weight: 400 !important;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 3px solid transparent;
+}
+
+.banner .conteudo .btn-ofertas:hover {
+	border-bottom: 3px solid #000;
+}
+
+.funcionalidades {
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 170px;
+	letter-spacing: 2px;
+}
+
+.funcionalidades .conteudo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.funcionalidades .conteudo .titulo {
+	position: relative;
+	text-align: center;
+	font-weight: 700 !important;
+	color: #007BFF;
+}
+
+.funcionalidades .conteudo .solucoes {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 40px 0px 40px;
+}
+
+.funcionalidades .conteudo .solucoes .card-solucao {
+	position: relative;
+	background-color: #EDF2F7;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 10px;
+}
+
+.funcionalidades .conteudo .solucoes .card-solucao .card-titulo {
+	position: relative;
+}
+
+.funcionalidades .conteudo .solucoes .card-solucao .card-titulo h3 {
+	font-weight: 700 !important;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.funcionalidades .conteudo .solucoes .card-solucao .card-descricao p {
+	font-weight: 400 !important;
+}

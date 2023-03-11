@@ -1,0 +1,89 @@
+.banner {
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 170px;
+	letter-spacing: 2px;
+}
+
+.banner .conteudo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .conteudo .titulo {
+	font-size: 40px;
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+	font-weight: 700 !important;
+}
+
+.banner .conteudo .subtitulo {
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	color: #0D6EFD;
+	font-weight: 400 !important;
+	margin-bottom: 60px;
+}
+
+
+.banner .conteudo .planos {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: begin;
+	margin: 30px 40px 0px 40px;
+}
+
+.banner .conteudo .planos .card-plano {
+	position: relative;
+	background-color: #EDF2F7;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 10px;
+	width: 60vh;
+	border: 1px solid #0003;
+}
+
+.banner .conteudo .planos .card-plano .card-titulo {
+	position: relative;
+}
+
+.banner .conteudo .planos .card-plano .card-titulo h3 {
+	font-weight: 700 !important;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.banner .conteudo .planos .card-plano ul li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.banner .conteudo .planos .card-plano .preco {
+	position: relative;
+}
+
+.banner .conteudo .planos .card-plano .btn-preco {
+	position: relative;
+	margin-bottom: 50px;
+	border-radius: 60px;
+	padding: 10px 60px;
+}
+
+.banner .conteudo .planos .card-plano .mais-info {
+	margin-top: 20px;
+	position: relative;
+	color: #007BFF;;
+	text-decoration: none;
+}
+
+.banner .conteudo .planos .card-plano .mais-info:hover {
+	color: #0B5ED7;
+}

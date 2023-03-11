@@ -1,0 +1,41 @@
+.banner {
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 90px;
+	letter-spacing: 2px;
+}
+
+.banner .conteudo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .conteudo .titulo {
+	font-size: 30px;
+	position: relative;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: 700 !important;
+}
+
+.banner .conteudo form {
+	position: relative;
+}
+
+
+.banner .conteudo form .btn-login {
+	border-radius: 10px;
+	position: relative;
+	width: 100%;
+}
+
+.banner .conteudo form .btn-esqueci {
+	text-decoration: none;
+	color: #0D6EFD;
+	margin-top: 20px;
+}

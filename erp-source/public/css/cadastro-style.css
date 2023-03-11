@@ -1,0 +1,48 @@
+.banner {
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 170px;
+	letter-spacing: 2px;
+}
+
+.banner .conteudo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .conteudo .titulo {
+	font-size: 30px;
+	position: relative;
+	margin-top: 0px;
+	text-align: center;
+	font-weight: 700 !important;
+}
+
+.banner .conteudo .subtitulo {
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	color: #0D6EFD;
+	font-weight: 400 !important;
+	margin-bottom: 60px;
+}
+
+.banner .conteudo form {
+	position: relative;
+	width: 50%;
+}
+
+.banner .conteudo form .info-form {
+	color: #0D6EFD;
+}
+
+.banner .conteudo form .btn-cadastro {
+	border-radius: 60px;
+	position: relative;
+	padding: 10px 30px;
+}
